@@ -24,7 +24,7 @@
     }
 </script>
 
-<style lang="css">
+<style lang="scss">
     body {
         margin: 0;
     }
@@ -38,9 +38,8 @@
         padding: 20px 10px;
         background-color: #000;
         color: white;
-    }
-
-    .footer_highlight {
-        color: lightsalmon;
+        .footer_highlight {
+            color: lightsalmon;
+        }
     }
 </style>
