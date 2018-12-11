@@ -1,0 +1,9 @@
+{
+  "name": "zeroApp",
+  "scripts": {
+    "dev": "nuxt"
+  },
+  "dependencies": {
+    "nuxt": "^2.3.4"
+  }
+}
