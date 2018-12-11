@@ -1,13 +1,18 @@
 <template>
-    <main>
-        <h1>Hello page</h1>
+    <main-template>
+        <h2>Hello page</h2>
         <p>So... hello =)</p>
-    </main>
+    </main-template>
 </template>
 
 <script>
+    import MainTemplate from '~/layout/MainTemplate';
+
     export default {
-        name: "hello"
+        name: "hello",
+        components: {
+            MainTemplate
+        }
     }
 </script>
 

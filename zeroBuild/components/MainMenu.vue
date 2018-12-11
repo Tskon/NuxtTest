@@ -1,6 +1,7 @@
 <template>
-    <nav>
+    <nav class="main-menu">
         <span>Меню: </span>
+        <a href="/">Index page</a>
         <a href="/hello">Hello page</a>
     </nav>
 </template>
@@ -12,5 +13,8 @@
 </script>
 
 <style scoped>
-
+    .main-menu{
+        display: flex;
+        flex-direction: column;
+    }
 </style>

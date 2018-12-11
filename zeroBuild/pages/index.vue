@@ -1,14 +1,16 @@
 <template>
-    <div id="vueApp">
-        <common-header>{{ title }}</common-header>
-        <main-menu></main-menu>
-        <main>some text111</main>
-    </div>
+    <main-template>
+        <h2>Index page</h2>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda at commodi culpa deleniti facilis illo
+            maiores nobis numquam possimus praesentium qui, quia quod quos sint suscipit tempora velit voluptate
+            voluptates.
+        </p>
+    </main-template>
 </template>
 
 <script>
-    import CommonHeader from '~/components/header.vue';
-    import Menu from '~/components/menu.vue';
+    import MainTemplate from '~/layout/MainTemplate';
 
     export default {
         data() {
@@ -18,8 +20,7 @@
         },
 
         components: {
-            CommonHeader,
-            'main-menu': Menu
+            MainTemplate
         }
     };
 </script>

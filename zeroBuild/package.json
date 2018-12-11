@@ -2,7 +2,8 @@
   "name": "zeroApp",
   "scripts": {
     "dev": "nuxt",
-    "build": "nuxt build"
+    "build": "nuxt build",
+    "gen": "nuxt generate"
   },
   "dependencies": {
     "nuxt": "^2.3.4"
