@@ -5,7 +5,7 @@
             some text in MainTemplate for header
         </main-header>
         <main class="content">
-            <slot></slot>
+            <nuxt/>
         </main>
         <footer class="footer">Footer of <span class="footer_highlight">test app</span></footer>
     </div>
@@ -25,19 +25,22 @@
 </script>
 
 <style lang="css">
-    body{
+    body {
         margin: 0;
     }
-    .content{
+
+    .content {
         padding: 20px 10px;
     }
-    .footer{
+
+    .footer {
         width: 100%;
         padding: 20px 10px;
         background-color: #000;
         color: white;
     }
-    .footer_highlight{
+
+    .footer_highlight {
         color: lightsalmon;
     }
 </style>
