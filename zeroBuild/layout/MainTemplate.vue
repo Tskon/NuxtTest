@@ -4,7 +4,7 @@
             <main-menu slot="menu"></main-menu>
             some text in MainTemplate for header
         </main-header>
-        <main>
+        <main class="content">
             <slot></slot>
         </main>
         <footer class="footer">Footer of <span class="footer_highlight">test app</span></footer>
@@ -25,6 +25,12 @@
 </script>
 
 <style lang="css">
+    body{
+        margin: 0;
+    }
+    .content{
+        padding: 20px 10px;
+    }
     .footer{
         width: 100%;
         padding: 20px 10px;
