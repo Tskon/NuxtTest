@@ -1,13 +1,14 @@
 <template>
     <div id="vueApp">
-        <common-header>Текст хедера</common-header>
-        <h1>{{ title }}</h1>
+        <common-header>{{ title }}</common-header>
+        <main-menu></main-menu>
         <main>some text111</main>
     </div>
 </template>
 
 <script>
     import CommonHeader from '~/components/header.vue';
+    import Menu from '~/components/menu.vue';
 
     export default {
         data() {
@@ -17,7 +18,8 @@
         },
 
         components: {
-            CommonHeader
+            CommonHeader,
+            'main-menu': Menu
         }
     };
 </script>
